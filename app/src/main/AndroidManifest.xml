@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.demon.smartshopping">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.demon.smartshopping.MainActivity"
+            android:label="智能购物" />
+        <activity
+            android:name="com.demon.smartshopping.Test.lianjielanya"
+            android:label="链接蓝牙" />
+        <activity
+            android:name="com.demon.smartshopping.Information.ShowCommodity"
+            android:label="商品信息" />
+        <activity android:name="com.demon.smartshopping.Test.ShowAllCommodity" />
+        <activity android:name="com.demon.smartshopping.Navigation.LuJing" />
+        <activity
+            android:name="com.demon.smartshopping.LoginAndRegister.MyLogin"
+            android:label="智能购物">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.demon.smartshopping.LoginAndRegister.Register"
+            android:label="注册" />
+        <activity
+            android:name="com.demon.smartshopping.Test.ReturnCommodity"
+            android:label="请选择退货商品">
+        </activity>
+        <activity
+            android:name="com.demon.smartshopping.Test.ReturnCommodityTow"
+            android:label="商品信息">
+        </activity>
+    </application>
+
+</manifest>

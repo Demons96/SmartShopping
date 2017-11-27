@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!--<item-->
+        <!--android:id="@+id/settings"-->
+        <!--android:icon="@drawable/ic_settings"-->
+        <!--android:title="设置" />-->
+
+    <item
+        android:id="@+id/lianjiely"
+        android:icon="@drawable/ic_settings"
+        android:title="链接蓝牙" />
+
+    <item
+        android:id="@+id/return_commodity"
+        android:icon="@drawable/ic_settings"
+        android:title="退货" />
+
+    <item
+        android:id="@+id/showallcommodity"
+        android:icon="@drawable/ic_settings"
+        android:title="显示所有商品" />
+
+    <!--<item-->
+        <!--android:id="@+id/addcommodity"-->
+        <!--android:icon="@drawable/ic_settings"-->
+        <!--android:title="添加商品信息" />-->
+
+    <!--<item-->
+        <!--android:id="@+id/settings2"-->
+        <!--android:icon="@drawable/ic_menu"-->
+        <!--android:title="Settings2"-->
+        <!--app:showAsAction="always"/>-->
+</menu>

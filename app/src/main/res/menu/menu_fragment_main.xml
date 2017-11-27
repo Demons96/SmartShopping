@@ -1,0 +1,28 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.demon.smartshopping.FragmentMain">
+
+    <!--android:icon="@drawable/ic_settings"-->
+    <item
+        android:id="@+id/lianjiely"
+        android:title="链接蓝牙" />
+
+    <item
+        android:id="@+id/return_commodity"
+        android:title="退货" />
+
+    <item
+        android:id="@+id/showallcommodity"
+        android:title="显示所有商品" />
+
+    <!--<item-->
+        <!--android:id="@+id/addcommodity"-->
+        <!--android:title="添加商品信息" />-->
+
+    <!--<item-->
+        <!--android:id="@+id/action_settings"-->
+        <!--android:orderInCategory="100"-->
+        <!--android:title="@string/action_settings"-->
+        <!--app:showAsAction="never" />-->
+</menu>
